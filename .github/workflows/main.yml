@@ -3,7 +3,7 @@ name: Toffee Cookie Auto Update
 on:
   schedule:
 
-    - cron: '0 * * * *'
+   - cron: '*/5 * * * *'
   workflow_dispatch:
 
 jobs:
